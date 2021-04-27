@@ -3,10 +3,9 @@ developed the app as a REST service - for its future flexibility as a service;
 I suggest that this application is tested through Postman or SoapUI.
 
 Run the application by executing this command within the AddressesTracker's main module:
-    mvn spring-boot:run
+    java -jar target/AddressesTracker-1.0-SNAPSHOT.jar
 
 These are the REST endpoints developed for updating the person and addresses registered:
-    http://localhost:/api/people/
     http://localhost:8080/api/people/add
     http://localhost:8080/api/people/update
     http://localhost:8080/api/people/remove/{id}
